@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+
+    & p {
+        color: white;
+        font-weight: bold;
+    }
+
+    & span {
+        font-weight: normal;
+    }
+}
+
+.button {
+    background-color: brown;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    width: 80px;
+    height: 25px;
+}
